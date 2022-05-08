@@ -1,0 +1,83 @@
+@media screen and (min-width : 980px){
+    main{
+        min-height: 100Vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo{
+        padding-top: 0;
+        padding-bottom: 5rem;
+    }
+
+    .conteneur{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1.5rem;
+
+        margin-bottom: 0rem;
+        padding: 2rem 2rem 2rem 3rem;
+
+        border-radius: 1.6rem;
+        box-shadow: 0 30px 70px -30px hsla(183, 100%, 15%, 0.5);
+    }
+
+    .entry{
+        width: 24.5rem;
+    }
+
+    h3{
+        padding-top: 1rem;
+    }
+
+    .entry > span{
+        padding-top: 1rem;
+    }
+
+    input[type='number']{
+        width: 24.5rem;
+        margin-bottom: 1rem;
+    }
+
+    input[type="number"] + label{
+        top: 0;
+        right: 24rem;
+    }
+
+    .grid_tips{
+        grid-template-columns: 7.5rem 7.5Rem 7.5rem;
+        grid-template-rows: 3rem 3rem;
+    }
+
+    .grid_tips > input[type='number']{
+        width: 7.5rem;
+        
+        padding-left: 0.2rem;
+    }
+
+    .all_result{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 3.5rem 2.5rem 1rem;
+
+        width: 26rem;
+    }
+
+    .all_result > .result{
+        padding-bottom: 3rem;
+        align-items: center;
+        justify-content: center;
+        grid-template-rows: 1.5rem 1.5rem;
+    }
+
+    .all_result > .result > .calc{
+        font-size: 3rem;
+    }
+
+    .all_result > button{
+        margin-top: 5rem;
+
+    
+    }
+}
